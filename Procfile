@@ -1,1 +1,0 @@
-web gunicorn DJANGO-REST.wsgi:application --log-file -
