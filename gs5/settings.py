@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'gs5.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'django-rest-table',
         'USER' : 'root',
         'PASSWORD' : '',
