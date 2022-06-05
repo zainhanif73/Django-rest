@@ -79,8 +79,12 @@ WSGI_APPLICATION = 'gs5.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'mydatabase',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'django-rest-table',
+        'USER' : 'root',
+        'PASSWORD' : '',
+        'HOST' : '127.0.0.1',
+        'PORT' : '3306',
     }
 }
 
